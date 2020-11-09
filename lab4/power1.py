@@ -1,5 +1,6 @@
-a = int(input("Please enter an integer: "))
-b = int(input("Please enter another integer: "))
+baseNumber = int(input("Please enter an integer: "))
+powerNumber = int(input("Please enter another integer: "))
 
-result = a**b
+for i in range (1, powerNumber)
+  result = baseNumber*powerNumber
 print(result)
