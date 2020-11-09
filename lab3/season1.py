@@ -1,7 +1,7 @@
 month = int(input("Please enter a number for month between 1 and 12: "))
 day = int(input("Please enter a number for day between 1 and 31: "))
 
-elif month >=3 and month <= 5:
+if month >=3 and month <= 5:
   if month == 3 and day < 20:
     print("Winter", "day " + str(day), "month " + str(month))
   elif month == 3 and day >= 20:
